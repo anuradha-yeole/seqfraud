@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# The package lives at the repo root, which pytest 8 does not add to sys.path
+# on its own. Without this, "pytest -q" fails to import seqfraud.*
+pythonpath = ["."]
+testpaths = ["tests"]
