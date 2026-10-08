@@ -1,0 +1,17 @@
+{
+  "threshold": 0.06561306864023209,
+  "agg_features": [
+    "log_amount",
+    "hour",
+    "ip_foreign",
+    "cnt_1h",
+    "cnt_24h",
+    "log_sum_amt_24h",
+    "n_merch_1h",
+    "log_secs_since_last",
+    "new_device",
+    "new_ip_country",
+    "amt_ratio_30d",
+    "log_cnt_all"
+  ]
+}

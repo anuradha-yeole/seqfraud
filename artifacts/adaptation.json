@@ -1,0 +1,48 @@
+{
+  "fpr": 0.001,
+  "eval_token_theft_txns": 1132,
+  "eval_token_theft_cards": 248,
+  "compromised_cards_in_adapt_window": 132,
+  "results": [
+    {
+      "labelled_cards": 0,
+      "labelled_txns": 0,
+      "lightgbm_token_theft_recall": 0.029151943462897525,
+      "lightgbm_other_fraud_recall": 0.9965606190885641,
+      "seq_transformer_token_theft_recall": 0.0,
+      "seq_transformer_other_fraud_recall": 1.0
+    },
+    {
+      "labelled_cards": 10,
+      "labelled_txns": 44,
+      "lightgbm_token_theft_recall": 0.08480565371024736,
+      "lightgbm_other_fraud_recall": 0.9965606190885641,
+      "seq_transformer_token_theft_recall": 0.44434628975265017,
+      "seq_transformer_other_fraud_recall": 0.999140154772141
+    },
+    {
+      "labelled_cards": 30,
+      "labelled_txns": 128,
+      "lightgbm_token_theft_recall": 0.08657243816254417,
+      "lightgbm_other_fraud_recall": 0.9957007738607051,
+      "seq_transformer_token_theft_recall": 0.818904593639576,
+      "seq_transformer_other_fraud_recall": 0.999140154772141
+    },
+    {
+      "labelled_cards": 100,
+      "labelled_txns": 431,
+      "lightgbm_token_theft_recall": 0.09452296819787986,
+      "lightgbm_other_fraud_recall": 0.9656061908856406,
+      "seq_transformer_token_theft_recall": 0.8507067137809188,
+      "seq_transformer_other_fraud_recall": 0.999140154772141
+    },
+    {
+      "labelled_cards": 132,
+      "labelled_txns": 578,
+      "lightgbm_token_theft_recall": 0.09452296819787986,
+      "lightgbm_other_fraud_recall": 0.9656061908856406,
+      "seq_transformer_token_theft_recall": 0.8833922261484098,
+      "seq_transformer_other_fraud_recall": 0.999140154772141
+    }
+  ]
+}
